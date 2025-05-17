@@ -10,7 +10,7 @@ from sklearn.metrics import r2_score
 PORT = '/dev/tty.usbmodem4827E2E15FC02'  # Update to your actual port
 BAUD_RATE = 9600
 DURATION = 10  # seconds per weight
-WEIGHTS_G = [50, 100, 150, 200]
+WEIGHTS_G = [50, 100, 150, 200] #Update to actual weights used
 GRAVITY = 9.80665  # m/s²
 
 # === INIT SERIAL ===
