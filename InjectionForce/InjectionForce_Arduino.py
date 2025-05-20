@@ -7,9 +7,9 @@ from collections import deque
 # === USER SETTINGS ===
 PORT = '/dev/tty.usbmodem4827E2E15FC02'  # <-- your Arduino port
 BAUD_RATE = 9600
-CSV_FILENAME = 'force_readings_syringe_1cc_150_3.csv'
+CSV_FILENAME = '5ulmin_test_syringe_4mmskin_21G_3.csv'
 MAX_POINTS = 100
-DURATION = 10  # seconds to run
+DURATION = 60  # seconds to run
 
 # === SETUP SERIAL ===
 ser = serial.Serial(PORT, BAUD_RATE, timeout=1)
