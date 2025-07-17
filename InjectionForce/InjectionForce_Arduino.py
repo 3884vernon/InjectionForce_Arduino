@@ -7,7 +7,7 @@ from collections import deque
 # === USER SETTINGS ===
 PORT = '/dev/tty.usbmodem4827E2E15FC02'  # <-- your Arduino port
 BAUD_RATE = 9600
-CSV_FILENAME = '5ulmin_test_syringe_4mmskin_21G_3.csv'
+CSV_FILENAME = 'test.csv'
 MAX_POINTS = 100
 DURATION = 60  # seconds to run
 

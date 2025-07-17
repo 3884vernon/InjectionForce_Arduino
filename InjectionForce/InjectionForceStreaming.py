@@ -9,6 +9,7 @@ print("Hi THere! :)")
 try:
     while True:
         line = ser.readline().decode('utf-8').strip()
-        print(f"RECEIVED: {line}")
+
+
 except KeyboardInterrupt:
     ser.close()
